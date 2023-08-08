@@ -20,7 +20,7 @@ Don't worry if you're new to React or A-Frame! All you need is curiosity and a s
 </em>
 </p>
 
-<p align="center">
+<p align="start">
 <em>
 <strong>Step 1</strong>: Unfolding the VR Blueprint
 Every grand adventure needs a sturdy foundation. Fear not, for we shall start by creating a new React project with a few simple commands:
@@ -29,7 +29,7 @@ Every grand adventure needs a sturdy foundation. Fear not, for we shall start by
 
 ![Alt Text](images/1.PNG)
 
-<p align="center">
+<p align="start">
 <em>
 <strong>Step 2</strong>: Gathering Your VR Essentials
 
@@ -56,7 +56,7 @@ The enchanting world of VR is powered by some magical tools. Let's make sure we'
 
 ![Alt Text](images/3.PNG)
 
-<p align="center">
+<p align="start">
 <em>
 In this enchanted realm, we use the <a-sky> tag to paint a breathtaking 360-degree image as your canvas. Replace your-360-image-url.jpg with the URL or path to your magical panorama.
 </em>
@@ -64,7 +64,7 @@ In this enchanted realm, we use the <a-sky> tag to paint a breathtaking 360-degr
 
 ![Alt Text](images/3.PNG)
 
-<p align="center">
+<p align="start">
 <em>
 <strong>Step 4</strong>: Empower Your VR Quest
 To venture boldly into the VR realm, you'll need intuitive controls. Fear not! With the power of look-controls, your journey shall be seamless:
@@ -75,7 +75,7 @@ To venture boldly into the VR realm, you'll need intuitive controls. Fear not! W
 
 ![Alt Text](images/3.PNG)
 
-<p align="center">
+<p align="start">
 <em>
 With the look-controls attribute on the <a-entity camera>, you shall wield the power to look around and explore every nook and cranny of this extraordinary world.
 </em>
@@ -83,7 +83,7 @@ With the look-controls attribute on the <a-entity camera>, you shall wield the p
 
 ![Alt Text](images/3.PNG)
 
-<p align="center">
+<p align="start">
 <em>
 <strong>Step 5</strong>: Setting the VR Stage
 To reveal the gateway to your VR adventure, unite the VrScene component with the main App.js:
@@ -94,7 +94,7 @@ To reveal the gateway to your VR adventure, unite the VrScene component with the
 
 ![Alt Text](images/3.PNG)
 
-<p align="center">
+<p align="start">
 <em>
 Step 6: Unveiling the VR Magic
 The stage is set, the props are in place. It's time to lift the veil of reality and unleash your VR adventure upon the world:
@@ -106,7 +106,7 @@ bash
 
 ![Alt Text](images/3.PNG)
 
-<p align="center">
+<p align="start">
 <em>
 As you cross the threshold at http://localhost:3000 in your browser, watch as the once-static realm transforms into an awe-inspiring VR experience. Immerse yourself in the magic of your creation!
 </em>
@@ -114,7 +114,7 @@ As you cross the threshold at http://localhost:3000 in your browser, watch as th
 
 ![Alt Text](images/3.PNG)
 
-<p align="center">
+<p align="start">
 <em>
 <strong>Step 7</strong>: Elevating the VR Experience (Optional)
 To make your VR adventure truly unforgettable, consider adding these captivating elements:
@@ -132,7 +132,7 @@ Mesmerizing Soundscapes: Enrich the atmosphere with enchanting soundscapes and m
 
 ![Alt Text](images/3.PNG)
 
-<p align="center">
+<p align="start">
 <em>
 <strong>Conclusion:</strong>
 Congratulations, fearless explorer! You have successfully forged a spellbinding VR experience using React and A-Frame. With this foundation, the VR universe is yours to explore! Venture forth and whisk users away to distant realms, construct breathtaking VR tours, or craft epic VR games that will captivate the hearts of all who dare to enter.
