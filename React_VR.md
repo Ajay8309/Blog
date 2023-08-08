@@ -9,88 +9,37 @@ No worries if you're new to the realm of React or A-Frame! A curious spirit and 
 Step 1: Unfolding the VR Blueprint
 Every grand adventure needs a sturdy foundation. Fear not, for we shall start by creating a new React project with a few simple commands:
 
-bash
-
-npx create-react-app vr-adventure
-cd vr-adventure
+![Alt Text](images/1.PNG)
 
 Step 2: Equipping Your VR Arsenal
 The magic of VR lies in the hands of enchanting tools. Let's equip ourselves with the necessary VR gear - A-Frame, React, and React DOM:
 
-bash
-npm install aframe react react-dom
+![Alt Text](images/2.PNG)
 
 Step 3: Crafting Your VR Wonderland
 Close your eyes and visualize the world you wish to create. Now, open them to find yourself in the src folder, where the canvas of your VR adventure awaits. Behold, the heart of our VR experience - the VrScene.js component:
 
-jsx
-// src/VrScene.js
-
-import React from 'react';
-import 'aframe';
-
-const VrScene = () => {
-return (
-<a-scene>
-{/_ Your VR adventure unfolds here _/}
-<a-sky src="your-360-image-url.jpg"></a-sky>
-</a-scene>
-);
-};
-
-export default VrScene;
+j![Alt Text](images/3.PNG)
 
 In this enchanted realm, we use the <a-sky> tag to paint a breathtaking 360-degree image as your canvas. Replace your-360-image-url.jpg with the URL or path to your magical panorama.
 
 Step 4: Empower Your VR Quest
 To venture boldly into the VR realm, you'll need intuitive controls. Fear not! With the power of look-controls, your journey shall be seamless:
 
-jsx
-
-// src/VrScene.js
-
-import React from 'react';
-import 'aframe';
-
-const VrScene = () => {
-return (
-<a-scene>
-<a-entity camera look-controls></a-entity>
-<a-sky src="your-360-image-url.jpg"></a-sky>
-</a-scene>
-);
-};
-
-export default VrScene;
+![Alt Text](images/4.PNG)
 
 With the look-controls attribute on the <a-entity camera>, you shall wield the power to look around and explore every nook and cranny of this extraordinary world.
 
 Step 5: Setting the VR Stage
 To reveal the gateway to your VR adventure, unite the VrScene component with the main App.js:
 
-jsx
-// src/App.js
-
-import React from 'react';
-import VrScene from './VrScene';
-
-function App() {
-return (
-
-<div className="App">
-<h1>Welcome to Your VR Adventure!</h1>
-<VrScene />
-</div>
-);
-}
-
-export default App;
+![Alt Text](images/5.PNG)
 
 Step 6: Unveiling the VR Magic
 The stage is set, the props are in place. It's time to lift the veil of reality and unleash your VR adventure upon the world:
 
 bash
-npm start
+![Alt Text](images/6.PNG)
 
 As you cross the threshold at http://localhost:3000 in your browser, watch as the once-static realm transforms into an awe-inspiring VR experience. Immerse yourself in the magic of your creation!
 
