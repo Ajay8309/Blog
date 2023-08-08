@@ -10,21 +10,22 @@ Step 1: Unfolding the VR Blueprint
 Every grand adventure needs a sturdy foundation. Fear not, for we shall start by creating a new React project with a few simple commands:
 
 bash
-Copy code
+
 npx create-react-app vr-adventure
 cd vr-adventure
+
 Step 2: Equipping Your VR Arsenal
 The magic of VR lies in the hands of enchanting tools. Let's equip ourselves with the necessary VR gear - A-Frame, React, and React DOM:
 
 bash
-Copy code
 npm install aframe react react-dom
+
 Step 3: Crafting Your VR Wonderland
 Close your eyes and visualize the world you wish to create. Now, open them to find yourself in the src folder, where the canvas of your VR adventure awaits. Behold, the heart of our VR experience - the VrScene.js component:
 
 jsx
-Copy code
 // src/VrScene.js
+
 import React from 'react';
 import 'aframe';
 
@@ -38,14 +39,16 @@ return (
 };
 
 export default VrScene;
+
 In this enchanted realm, we use the <a-sky> tag to paint a breathtaking 360-degree image as your canvas. Replace your-360-image-url.jpg with the URL or path to your magical panorama.
 
 Step 4: Empower Your VR Quest
 To venture boldly into the VR realm, you'll need intuitive controls. Fear not! With the power of look-controls, your journey shall be seamless:
 
 jsx
-Copy code
+
 // src/VrScene.js
+
 import React from 'react';
 import 'aframe';
 
@@ -59,19 +62,21 @@ return (
 };
 
 export default VrScene;
+
 With the look-controls attribute on the <a-entity camera>, you shall wield the power to look around and explore every nook and cranny of this extraordinary world.
 
 Step 5: Setting the VR Stage
 To reveal the gateway to your VR adventure, unite the VrScene component with the main App.js:
 
 jsx
-Copy code
 // src/App.js
+
 import React from 'react';
 import VrScene from './VrScene';
 
 function App() {
 return (
+
 <div className="App">
 <h1>Welcome to Your VR Adventure!</h1>
 <VrScene />
@@ -80,12 +85,13 @@ return (
 }
 
 export default App;
+
 Step 6: Unveiling the VR Magic
 The stage is set, the props are in place. It's time to lift the veil of reality and unleash your VR adventure upon the world:
 
 bash
-Copy code
 npm start
+
 As you cross the threshold at http://localhost:3000 in your browser, watch as the once-static realm transforms into an awe-inspiring VR experience. Immerse yourself in the magic of your creation!
 
 Step 7: Elevating the VR Experience (Optional)
