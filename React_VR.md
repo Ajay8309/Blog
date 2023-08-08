@@ -44,12 +44,13 @@ The enchanting world of VR is powered by some magical tools. Let's make sure we'
 <em>
 <strong>Step 3</strong>: Unveiling Your VR Wonderland
 </br>
-<strong>1.</strong> Imagine your desired virtual world.
-<strong>2.</strong> Open the src folder—a canvas for your VR journey.
-<strong>3.</strong>The pivotal VrScene.js component awaits. Here, your immersive dreams come alive.
-<strong>4.</strong> Like an artist with a brush, craft your digital masterpiece within this component.
-<strong>5.</strong> Through your creation, users will be transported to a mesmerizing 360-degree universe.
-<strong>6.</strong>Dive in and sculpt a VR realm that goes beyond the ordinary, embracing the extraordinary.
+<strong>1.</strong> Imagine your desired virtual world.</br>
+<strong>2.</strong> Open the src folder—a canvas for your VR journey.</br>
+<strong>3.</strong>The pivotal VrScene.js component awaits. Here, your immersive dreams come alive.</br>
+<strong>4.</strong> Like an artist with a brush, craft your digital masterpiece within this component.</br>
+<strong>5.</strong> Through your creation, users will be transported to a mesmerizing 360-degree universe.</br>
+<strong>6.</strong>Dive in and sculpt a VR realm that goes beyond the ordinary, embracing the extraordinary.</br>
+
 </em>
 </p>
 
