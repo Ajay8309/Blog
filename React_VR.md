@@ -40,7 +40,7 @@ The enchanting world of VR is powered by some magical tools. Let's make sure we'
 
 ![Alt Text](images/2.PNG)
 
-<p align="center">
+<p align="start">
 <em>
 <strong>Step 3</strong>: Unveiling Your VR Wonderland
 </br>
