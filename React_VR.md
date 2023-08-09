@@ -53,8 +53,6 @@ Before diving into aframe-react, make sure you have the following installed on y
 Node.js and npm (Node Package Manager): You'll need these to manage packages and dependencies.</em>
 </p>
 
-<!-- ![Alt Text](images/1.PNG) -->
-
 <p align="start">
 <em>
 <strong>Step 2</strong>: Install aframe-react
@@ -68,8 +66,6 @@ Install aframe-react package in your project by running:
 npm install aframe-react
 ```
 
-<!-- ![Alt Text](images/1st.PNG) -->
-
 <p align="start">
 <em>
 <strong>Step 3</strong>: Setting Up the Scene
@@ -77,8 +73,6 @@ npm install aframe-react
 import the necessary components to App.jsx:
 </em>
 </p>
-
-<!-- ![Alt Text](images/3rd.PNG) -->
 
 ```
 import React from 'react';
@@ -101,14 +95,10 @@ export default App;
 Within the Scene component, you can start adding A-Frame entities using the <Entity /> component. For example, let's add a 3D box:</em>
 </p>
 
-<!-- ![Alt Text](images/2nd.PNG) -->
-
 ```
  <Entity geometry={{ primitive: 'box' }} position="0 1 -3" color="tomato" />
 
 ```
-
-<!-- ![Alt Text](images/3.PNG) -->
 
 <p align="start">
 <em>
@@ -116,18 +106,12 @@ With the look-controls attribute on the <a-entity camera>, you shall wield the p
 </em>
 </p>
 
-<!-- ![Alt Text](images/3.PNG) -->
-
 <p align="start">
 <em>
 <strong>Step 5</strong>: Setting the VR Stage
 To reveal the gateway to your VR adventure, unite the VrScene component with the main App.js:
 </em>
 </p>
-
-![Alt Text](images/last.PNG)
-
-<!-- ![Alt Text](images/3.PNG) -->
 
 <p align="start">
 <em>
@@ -154,8 +138,6 @@ const App = () => {
 
 export default App;
 ```
-
-<!-- ![Alt Text](images/3.PNG) -->
 
 <p align="start">
 <em>
