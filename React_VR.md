@@ -7,7 +7,6 @@ Title: How to use React to create a virtual reality experience
 <strong>Introduction:</strong>
 </h3>
 <em>
-Introduction:
 As technology advances, Virtual Reality (VR) stands as a captivating frontier where imagination fuses with reality. Enter A-Frame, an open-source framework that leads you into the enchanting world of VR web development. In this blog post, we will delve into the dynamic synergy between A-Frame and aframe-react, exploring their essence, roles, and how they seamlessly integrate to craft awe-inspiring VR experiences.
 </em>
 </p>
