@@ -159,6 +159,16 @@ export default App;
 
 <p align="start">
 <em>
+<strong>
+Step 6: Start the Server
+</strong>
+```
+npm start
+```
+</p>
+
+<p align="start">
+<em>
 As you venture to <a>http://localhost:3000</a>in your web browser, watch as the once-static realm unfolds into an immersive VR adventure. Let yourself be captivated by the enchanting world you've crafted.
 
 Feel the empowerment of aframe-react and A-Frame, where your imagination finds its canvas in the realm of virtual reality. Enjoy your journey through the magic of VR!
