@@ -64,7 +64,11 @@ Install aframe-react package in your project by running:
 
 </p>
 
-![Alt Text](images/1st.PNG)
+```
+npm install aframe-react
+```
+
+<!-- ![Alt Text](images/1st.PNG) -->
 
 <p align="start">
 <em>
@@ -74,7 +78,22 @@ import the necessary components to App.jsx:
 </em>
 </p>
 
-![Alt Text](images/3rd.PNG)
+<!-- ![Alt Text](images/3rd.PNG) -->
+
+```
+import React from 'react';
+import { Entity, Scene } from 'aframe-react';
+
+const App = () => {
+    return (
+        <Scene>
+            {/* Add your VR elements here using <Entity /> */}
+        </Scene>
+    );
+}
+
+export default App;
+```
 
 <p align="start">
 <em>
@@ -82,7 +101,12 @@ import the necessary components to App.jsx:
 Within the Scene component, you can start adding A-Frame entities using the <Entity /> component. For example, let's add a 3D box:</em>
 </p>
 
-![Alt Text](images/2nd.PNG)
+<!-- ![Alt Text](images/2nd.PNG) -->
+
+```
+ <Entity geometry={{ primitive: 'box' }} position="0 1 -3" color="tomato" />
+
+```
 
 <!-- ![Alt Text](images/3.PNG) -->
 
@@ -113,7 +137,27 @@ The stage is set, the props are in place. It's time to lift the veil of reality 
 </p>
 
 bash
-![Alt Text](images/6.PNG)
+
+<!-- ![Alt Text](images/6.PNG) -->
+
+```
+import React from 'react';
+import { Entity, Scene } from 'aframe-react';
+
+const App = () => {
+    return (
+        <Scene>
+            <Entity primitive="a-sky" color="lightblue" />
+            <Entity primitive="a-box" position="0 1 -3" color="tomato" />
+            <Entity primitive="a-sphere" position="2 1 -5" color="yellow" />
+            <Entity primitive="a-light" type="ambient" color="#888" />
+            <Entity primitive="a-light" type="directional" position="-3 2 1" />
+        </Scene>
+    );
+}
+
+export default App;
+```
 
 <!-- ![Alt Text](images/3.PNG) -->
 
