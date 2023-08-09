@@ -136,10 +136,6 @@ The stage is set, the props are in place. It's time to lift the veil of reality 
 </em>
 </p>
 
-bash
-
-<!-- ![Alt Text](images/6.PNG) -->
-
 ```
 import React from 'react';
 import { Entity, Scene } from 'aframe-react';
