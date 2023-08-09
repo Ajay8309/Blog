@@ -162,10 +162,11 @@ export default App;
 <strong>
 Step 6: Start the Server
 </strong>
+</p>
+
 ```
 npm start
 ```
-</p>
 
 <p align="start">
 <em>
