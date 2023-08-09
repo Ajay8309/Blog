@@ -61,6 +61,8 @@ To visualize aframe-react's influence, consider the <Entity/> React Component.
 </em>
 </p>
 
+("./aframe.jpg")
+
 <p align="start">
 <em>
 
